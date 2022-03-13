@@ -44,7 +44,7 @@ body {
     background-image: url("../assets/backgrounds/s_image.jpg");
     height: 280px;
 }
-.small-overlay {
+.service {
     background-color: rgba(0, 0, 0, 0);
     height: 280px;
 }
