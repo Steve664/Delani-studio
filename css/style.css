@@ -13,13 +13,18 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.mouse_click {
+    margin-top: 330px;
+}
 .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
     height: 668px;
 }
 
 .overlay > img, .h-text {
     position: relative;
     top: 33%;
+}
+.overlay > img, .welcome {
+    margin-bottom: 30px;
 }
