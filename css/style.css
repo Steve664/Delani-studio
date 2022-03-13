@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron-fluid {
+    background-image: url("../assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    height: 668px;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 668px;
+}
+
+.overlay > img, .h-text {
+    position: relative;
+    top: 33%;
+}
