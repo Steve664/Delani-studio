@@ -16,16 +16,16 @@ body {
 .mouse_click {
     margin-top: 330px;
 }
-.overlay {
+.intro {
     background-color: rgba(0, 0, 0, 0);
     height: 700px;
 }
 
-.overlay > img, .h-text {
+.intro > img, .h-text {
     position: relative;
     top: 33%;
 }
-.overlay > img, .welcome {
+.intro > img, .welcome {
     margin-bottom: 30px;
 }
 .about {
