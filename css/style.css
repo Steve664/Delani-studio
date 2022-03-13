@@ -28,3 +28,10 @@ body {
 .overlay > img, .welcome {
     margin-bottom: 30px;
 }
+.about {
+    height: 250px;
+}
+
+.about h1 {
+    margin-top: 30px;
+}
