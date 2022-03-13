@@ -7,7 +7,7 @@ body {
 .jumbotron-fluid {
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
-    height: 668px;
+    height: 700px;
 }
 .container-fluid {
     margin: 0;
@@ -18,7 +18,7 @@ body {
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0);
-    height: 668px;
+    height: 700px;
 }
 
 .overlay > img, .h-text {
@@ -34,4 +34,17 @@ body {
 
 .about h1 {
     margin-top: 30px;
+}
+.services h1 {
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
+}
+.services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 280px;
+}
+.small-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    height: 280px;
 }
