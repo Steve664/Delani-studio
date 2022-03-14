@@ -25,6 +25,20 @@ $(function () {
         $(prodM).show(500);
         $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
-
+    $(desM).on('click', function () {
+        $('.des').slideDown();
+        $(desM).hide(500);
+        $(destext).animate({fontWeight:'normal',fontSize:'16px'})
+    });
+    $(devM).on('click', function () {
+        $('.dev').slideDown();
+        $(devM).hide(500);
+        $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
+    });
+    $(prodM).on('click', function () {
+        $('.pro').slideDown();
+        $(prodM).hide(500);
+        $(protext).animate({fontWeight:'normal',fontSize:'16px'})
+    })
 
 })
