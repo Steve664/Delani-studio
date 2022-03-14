@@ -1,104 +1,104 @@
-
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .jumbotron-fluid {
-    background-image: url("../assets/backgrounds/h_img.jpg");
-    background-size: cover;
-    height: 700px;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-size: cover;
+  height: 700px;
 }
 .container-fluid {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .mouse_click {
-    margin-top: 330px;
+  margin-top: 330px;
 }
 .intro {
-    background-color: rgba(0, 0, 0, 0);
-    height: 700px;
+  background-color: rgba(0, 0, 0, 0);
+  height: 700px;
 }
 
-.intro > img, .h-text {
-    position: relative;
-    top: 33%;
+.intro > img,
+.h-text {
+  position: relative;
+  top: 33%;
 }
-.intro > img, .welcome {
-    margin-bottom: 30px;
+.intro > img,
+.welcome {
+  margin-bottom: 30px;
 }
 .about {
-    height: 250px;
+  height: 250px;
 }
 
 .about h1 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 .services h1 {
-    position: relative;
-    top: 30px;
-    margin-bottom: 20px;
+  position: relative;
+  top: 30px;
+  margin-bottom: 20px;
 }
 .services {
-    background-image: url("../assets/backgrounds/s_image.jpg");
-    height: 280px;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  height: 280px;
 }
 
 .service {
-    background-color: rgba(0, 0, 0, 0);
-    height: 280px;
+  background-color: rgba(0, 0, 0, 0);
+  height: 280px;
 }
 .wTitle {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .whatWe h1 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .portfolioImage {
-   position: relative;
-    margin: 5px;
- }
-
- .portfolio{
-     padding-bottom: 20px;
- }
-
-.text{
-    background-color: transparent;
-    margin-bottom: 20px;
+  position: relative;
+  margin: 5px;
 }
- .portfolioImage .pText {
-    display: none;
-    padding: 60px;
-    height: 100%;
-    opacity: 0.7;
-    background-color:rgb(255, 255, 255);
-    width: auto;
-    position: absolute;
-    bottom: 0;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    }
 
-.socialLinks{
-    padding-top: 30px;
-    padding-bottom: 20px;
+.portfolio {
+  padding-bottom: 20px;
+}
+
+.text {
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.portfolioImage .pText {
+  display: none;
+  padding: 60px;
+  height: 100%;
+  opacity: 0.7;
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.socialLinks {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .contact input::placeholder,
 .contact textarea::placeholder {
-  
   color: rgb(187, 187, 187);
 }
-.name{
-    margin-right: 5px;
+.name {
+  margin-right: 5px;
 }
 .contacts {
-    background: url("../assets/backgrounds/c_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background: url("../assets/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
