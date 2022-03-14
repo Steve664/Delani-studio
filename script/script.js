@@ -41,4 +41,10 @@ $(function () {
         $(protext).animate({fontWeight:'normal',fontSize:'16px'})
     })
 
+    $('.portfolioImage').hover(function(){
+        $('.pText',this).slideToggle('slow');
+     }, function(){
+        $('.pText',this).slideToggle('slow');
+     });
+
 })
