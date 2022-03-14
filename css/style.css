@@ -83,16 +83,16 @@ body {
     font-weight: bold;
     font-size: 30px;
     }
-.social{
+
+.socialLinks{
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.contact input,
-.contact textarea {
-  background: transparent;
-  border-radius: 0;
-  color: #fff;
+.contact input::placeholder,
+.contact textarea::placeholder {
+  
+  color: rgb(187, 187, 187);
 }
 .name{
     margin-right: 5px;

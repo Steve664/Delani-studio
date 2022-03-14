@@ -36,7 +36,7 @@ $(function () {
         $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
     });
     $(prodM).on('click', function () {
-        $('.pro').slideDown();
+        $('.prod').slideDown();
         $(prodM).hide(500);
         $(protext).animate({fontWeight:'normal',fontSize:'16px'})
     })
