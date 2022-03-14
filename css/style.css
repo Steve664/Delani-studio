@@ -64,40 +64,7 @@ body {
  .portfolio{
      padding-bottom: 20px;
  }
- .contacts {
-    background-image: url("../assets/backgrounds/c_image.jpg");
-    background-size: cover;
-    
-}
 
-.contacts h1 {
-    position: relative;
-    top: 30px;
-    padding-bottom: 30px;
-}
-.form-control{
-    background-color:transparent;
-   
-    color: white;
-}
-
-#form{
-    background-color: transparent;
-}
-.name{
-    margin-right: 5px;
-}
-.contacts input,
-.contacts textarea {
-  background-color: transparent;
-  border-radius: 0;
-  color: #fff;
-}
-
- input::placeholder,
- textarea::placeholder {
-  color: #cccccc;
-}
 .text{
     background-color: transparent;
     margin-bottom: 20px;
@@ -120,3 +87,18 @@ body {
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+.contact input,
+.contact textarea {
+  background: transparent;
+  border-radius: 0;
+  color: #fff;
+}
+.name{
+    margin-right: 5px;
+}
+.contacts {
+    background: url("../assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
