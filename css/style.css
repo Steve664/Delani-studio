@@ -55,3 +55,12 @@ body {
 .whatWe h1 {
     margin-top: 30px;
 }
+
+.portfolioImage {
+   position: relative;
+    margin: 5px;
+ }
+
+ .portfolio{
+     padding-bottom: 20px;
+ }
