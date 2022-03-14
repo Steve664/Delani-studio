@@ -47,4 +47,21 @@ $(function () {
         $('.pText',this).slideToggle('slow');
      });
 
+     $("form#form").on('submit',function(event){
+        event.preventDefault();
+        let name = $("input#name").val();
+        let email = $("input#email").val();
+        let message = $("textarea#message").val();
+
+        if ($("input#name").val() && $("input#email").val()){
+            alert ("Greetings " + name + ", your message has been recieved");
+        }
+        else {
+            alert("OOps! please enter the correct details");
+        }
+
+        
+
+    });
+
 })
