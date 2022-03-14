@@ -73,21 +73,41 @@ body {
 .contacts h1 {
     position: relative;
     top: 30px;
-    bottom: 30px;
+    padding-bottom: 30px;
 }
 .form-control{
-    background-color: rgba(0, 0, 0, 0);
+    background-color:transparent;
+   
     color: white;
 }
-#text{
-    color: white;
+
+#form{
+    background-color: transparent;
+}
+.name{
+    margin-right: 5px;
+}
+.contacts input,
+.contacts textarea {
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
+}
+
+ input::placeholder,
+ textarea::placeholder {
+  color: #cccccc;
+}
+.text{
+    background-color: transparent;
+    margin-bottom: 20px;
 }
  .portfolioImage .pText {
     display: none;
     padding: 60px;
     height: 100%;
     opacity: 0.7;
-    background-color:rgba(255, 255, 255, 0.952);
+    background-color:rgb(255, 255, 255);
     width: auto;
     position: absolute;
     bottom: 0;
@@ -96,3 +116,7 @@ body {
     font-weight: bold;
     font-size: 30px;
     }
+.social{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
